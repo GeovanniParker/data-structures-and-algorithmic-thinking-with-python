@@ -1,5 +1,5 @@
 .DS_Store
-*~
+#~
 .buildconfig
 .ycm_extra_conf.*
 */.tags
@@ -11,3 +11,4 @@ build/
 node_modules/
 
 lib/binding/*
+#
