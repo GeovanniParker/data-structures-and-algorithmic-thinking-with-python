@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
   s.subspec 'Foundation' do |ss|
     ss.source_files =
       'AVOS/LeanCloudObjc/Foundation.h',
-      'AVOS/Sources/Vendor/LCNetworking/*.{h,m}',
-      'AVOS/Sources/Foundation/**/*.{h,m}'
+      'AVOS/Sources/Vendor/LCNetworking/#.{h,m}',
+      'AVOS/Sources/Foundation/##/#.{h,m}'
     
     ss.public_header_files =
       'AVOS/LeanCloudObjc/Foundation.h',
@@ -113,3 +113,4 @@ Pod::Spec.new do |s|
       'AVOS/Sources/Realtime/IM/Commands/MessagesProtoOrig.pbobjc.{h,m}'
   end
 end
+ 
